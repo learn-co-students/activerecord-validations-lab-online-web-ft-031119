@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+ActiveRecord Validations Lab	README.md	/^# ActiveRecord Validations Lab$/;"	c
+ActiverecordValidationsLab	config/application.rb	/^module ActiverecordValidationsLab$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	module:ActiverecordValidationsLab
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Author	app/models/author.rb	/^class Author < ActiveRecord::Base$/;"	c
+Author, type: :model	spec/models/author_spec.rb	/^RSpec.describe Author, type: :model do$/;"	d
+Basic Validations	README.md	/^# Basic Validations$/;"	c
+CreateAuthors	db/migrate/20151202061645_create_authors.rb	/^class CreateAuthors < ActiveRecord::Migration$/;"	c
+CreatePosts	db/migrate/20151202061742_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+Custom Validations	README.md	/^# Custom Validations$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+Post, type: :model	spec/models/post_spec.rb	/^RSpec.describe Post, type: :model do$/;"	d
+The change you wanted was rejected.	public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h
+The page you were looking for doesn't exist.	public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h
+We're sorry, but something went wrong.	public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h
+change	db/migrate/20151202061645_create_authors.rb	/^  def change$/;"	f	class:CreateAuthors
+change	db/migrate/20151202061742_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+default	config/database.yml	/^default: &default$/;"	a
+is_clickbait?	app/models/post.rb	/^  def is_clickbait?$/;"	f	class:Post
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
