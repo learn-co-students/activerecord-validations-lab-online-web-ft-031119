@@ -19,7 +19,7 @@ RSpec.describe Post, type: :model do
   let(:invalid_cat) { Post.new(valid_attrs.merge(category: "Bowling Ball")) }
   let(:non_clickbait) { Post.new(valid_attrs.merge(title: "True Facts")) }
 
-  xit "is valid" do
+  it "is valid" do
     expect(valid_post).to be_valid
   end
 
