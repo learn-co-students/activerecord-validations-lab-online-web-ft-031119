@@ -1,0 +1,16 @@
+<% if flash[:error]%>
+  <% flash[:error].each do |msg|%>
+    <li><%= msg%></li>
+  <%end%>
+<%end%>
+
+<h1>Create a new author:</h1>
+<%= form_for(@author) do |f|%>
+    <%= f.label :name%>
+    <%= f.text_field :name%>
+    <br>
+    <%= f.label :phone_number%>
+    <%= f.text_field :phone_number%>
+    <br>
+    <%= f.submit%>
+<%end%>
