@@ -1,0 +1,22 @@
+<% if flash[:error]%>
+  <% flash[:error].each do |msg|%>
+    <li><%= msg%></li>
+  <%end%>
+<%end%>
+
+<h1>Create a new post:</h1>
+<%= form_for(@post) do |f|%>
+    <%= f.label :title%>
+    <%= f.text_field :title%>
+    <br>
+    <%= f.label :content%>
+    <%= f.text_area :content%>
+    <br>
+    <%= f.label :summary%>
+    <%= f.text_area :summary%>
+    <br>
+    <%= f.label :category%>
+    <%= f.text_field :category%>
+    <br>
+    <%= f.submit%>
+<%end%>
